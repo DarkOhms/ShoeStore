@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">ShoeStore</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="register_button">Register</string>
+    <string name="register_label">Register</string>
+    <string name="login_label">Login</string>
+    <string name="shoe_welcome">Welcome to the shoe store!  \nRemember, if the shoe fits,wear it!</string>
+    <string name="welcome_pun">Let\'s start off on the right foot!</string>
+    <string name="instruction_label">Instructions</string>
+    <string name="instructions_1_text">Here\'s how you can get along without feeling like you have two left feet!</string>
+    <string name="instructions_2_text">These are some really important instructions.</string>
+    <string name="shoe_button_label">Shoes</string>
+    <string name="details_content_description">details button</string>
+    <string name="logout_label">Logout</string>
+    <string name="description_hint">A description goes here.</string>
+    <string name="name_label">Name</string>
+    <string name="company_label">Brand</string>
+    <string name="size_label">Size</string>
+    <string name="description_label">Description</string>
+    <string name="cancel_label">Cancel</string>
+    <string name="save_label">Save</string>
+    <string name="shoe_name_hint">Enter shoe name.</string>
+    <string name="shoe_company_hint">Enter shoe company.</string>
+    <string name="shoe_size_hint">Enter shoe size.</string>
+    <string name="shoe_scroll_description">This is a scrolling list of shoes.</string>
+    <string name="shoe_fragment_label">Shoes</string>
+    <string name="instructions_fragment_label">Instructions</string>
+    <string name="welcome_fragment_label">Welcome</string>
+    <string name="login_fragment_label">Login</string>
+    <string name="shoe_maker_label">Made By:</string>
+    <string name="shoe_size_label">Size:</string>
+    <string name="details_fragment_label">Details</string>
+</resources>
