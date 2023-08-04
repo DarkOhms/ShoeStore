@@ -15,7 +15,8 @@
             />
     </data>
 
-    <!-- I'm using ConstraintLayout because I wanted to follow the specifications-->
+    <!-- I'm using ConstraintLayout because I wanted to follow the specifications.-->
+    <!-- I wanted to use nested LinearLayouts but that was prohibited.-->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

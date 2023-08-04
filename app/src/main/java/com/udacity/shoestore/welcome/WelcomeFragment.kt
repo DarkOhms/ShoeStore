@@ -23,7 +23,7 @@ class WelcomeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         // Inflate the layout for this fragment
-        binding = DataBindingUtil.inflate(inflater,R.layout.fragment_welcome, container, false)
+        binding = FragmentWelcomeBinding.inflate( inflater, container, false)
         //set the viewModel for data binding
         binding.welcomeViewModel = storeViewModel
 

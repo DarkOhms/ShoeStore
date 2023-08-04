@@ -33,10 +33,12 @@ class DetailsFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         // Inflate the layout for this fragment
-        binding = DataBindingUtil.inflate(inflater, R.layout.fragment_details, container, false)
+        binding = FragmentDetailsBinding.inflate(inflater,container, false)
 
-        binding.newShoeData = storeViewModel.newShoeData
-        binding.detailsViewModel = storeViewModel
+        with(binding){
+            newShoeData = storeViewModel.newShoeData
+            detailsViewModel = storeViewModel
+        }
 
         storeViewModel.navigate.observe(viewLifecycleOwner){
             if(it){
