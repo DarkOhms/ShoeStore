@@ -10,6 +10,7 @@
             type="com.udacity.shoestore.StoreViewModel" />
     </data>
 
+    <!-- I'm using CoordinatorLayout to facilitate the use of the FloatingActionButton-->
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
